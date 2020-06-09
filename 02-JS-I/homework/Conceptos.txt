@@ -1,0 +1,18 @@
+Variables: Son espacios en memoria a donde se guarda informacion de diferentes tipoa a los que podemos
+acceder cuando sea necesario.
+
+String: Este es un tipo de variable que consiste en una cadena de caracteres.
+
+Funciones: Son declaraciones agrupadas en el codigo en donde se ejecutan y  pueden retornar valores.
+
+Argumentos: Es el espacio siguiente al nombre de la funcion en donde declaramos las variables que utilizar esa funcion.
+Esta va entre parentesis.
+
+Return: Esta es una Instruccion que cumple 2 funciones, primero finaliza la ejecucion de la funcion en donde esta 
+ubicado y segundo retorna un valor de la funcion.
+
+Declaraciones: Es el nombre que ponemos a una variable para poder identificarla.
+
+if: Es una estructura condicional que solo tiene dos retornos (true o false).
+
+Valores booleanos: Estos son datos que solo tienen dos valores (abierto, cerrado; si, no; etc.). 
