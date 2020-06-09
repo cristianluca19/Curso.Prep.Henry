@@ -15,4 +15,4 @@ Declaraciones: Es el nombre que ponemos a una variable para poder identificarla.
 
 if: Es una estructura condicional que solo tiene dos retornos (true o false).
 
-Valores booleanos: Estos son datos que solo tienen dos valores (abierto, cerrado; si, no; etc.). 
+Valores booleanos: Estos son datos que solo tienen dos valores (abierto, cerrado; si, no; etc.).
