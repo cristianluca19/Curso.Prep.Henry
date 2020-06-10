@@ -1,0 +1,9 @@
+Ciclo for: Este es un bucle permite repetir un boque de codigos una determinada cantidad de veces
+ya que consta de una variable como contador y asi limita su funcionalidad ya que se sale de el cuando 
+el contador llega a cumplir la condicion impuesta en su inicio.
+
+Operadores logicos: Estos pueden crear condiciones compuestas (en las que se deben cumplir dos o mas 
+condiciones) comparando dos expresiones. Los opreradores logicos solo devuelven valores booleanos,estos son:
+    AND:Si ambas expresiones son true devuelve true.
+    OR: Solo una de las expresiones tiene que ser true para que devuelva true.
+    NOT: Este cambia el resultado de lo que se devuelve de la expresion.
