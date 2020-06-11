@@ -33,8 +33,8 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array2 = array.concat(elemento);
-  return array2;
+  array[array.length] = elemento;
+  return array;
 }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
@@ -72,16 +72,22 @@ function agregarNumeros(numeros) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
- reducer = (accumulator, currentValue) => accumulator + currentValue;
- return (numeros.reduce(reducer));
+  var suma = 0;
+  for (var i=0; i<numeros.length;i++){
+    suma = suma + numeros[i];
+  }
+  return suma;
 }
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-var suma = resultadosTest.reduce((previous, current) => current += previous);
-return suma / resultadosTest.length;
+var suma = 0;
+for (var i=0; i<resultadosTest.length;i++){
+  suma = suma + resultadosTest[i];
+}
+return suma/resultadosTest.length;
 }
 
 function numeroMasGrande(numeros) {
