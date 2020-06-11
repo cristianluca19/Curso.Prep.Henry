@@ -1,0 +1,4 @@
+Arrays: Son contenedores (estructuras de datos) que almacenan una coleccion datos, llamados elementos, 
+y estos pueden ser de cualquier tipo de datos, arreglos o funciones.Para construir uno solo hace falta declarar
+una variable seguido del nombre del arreglo luego asignanmos su contenido por medio de un signo igual y sus
+elementos encerrados entre braquets.
