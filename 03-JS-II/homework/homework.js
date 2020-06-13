@@ -6,12 +6,9 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x > y){
-    return (x);
-  } if (y > x){
-    return (y);
-  }if (x===y){
-    return(x);
+    return x;
   }
+    return y;
 }
 
 
@@ -98,8 +95,8 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-	for (var x = 2; x < 100 ; x++) {
-    if (numero === 1 ){
+	for (var x = 2; x < numero ; x++) {
+    if (numero === 1 || 0 ){
       return false;
     }
 		if (numero % x === 0){ 
