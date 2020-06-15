@@ -12,7 +12,6 @@ function sumarArray(numeros, cb) {
     return accumulator + currentValue;
   }, 0);
 }
-numeros(suma)=cb;
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
