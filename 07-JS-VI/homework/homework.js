@@ -8,7 +8,11 @@ function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
+  var suma = numeros.reduce(function (accumulator, currentValue) {
+    return accumulator + currentValue;
+  }, 0);
 }
+numeros(suma)=cb;
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno

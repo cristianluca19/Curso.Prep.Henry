@@ -38,14 +38,11 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-  function String(reverse){
-
-  String.prototype.reverse = function(){
-    return String.this.reverse();
+ 
+    String.prototype.reverse = function(){
+      return this.split('').reverse().join('');
     }
-  }  
 }
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
