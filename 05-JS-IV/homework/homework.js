@@ -82,12 +82,10 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  for (var search in objeto){
-    if (search == propiedad){
+    if (objeto[propiedad]){
       return true;
     }else{
       return false;
-    }
   }
 }
 
