@@ -15,9 +15,9 @@ function crearUsuario() {
       this.email = opciones.email,
       this.password = opciones.password
     }
-  saludar (){
-    return (`Hola, mi nombre es ${this.nombre}`);
-    }
+   Usuario.prototype.saludar= funvtion =(){
+     return 'Hola, mi nombre es ' + this this.nombre;
+   }
   }
   return Usuario;
 }
@@ -29,7 +29,6 @@ function agregarMetodoPrototype(Constructor) {
   Constructor.prototype.saludar= function(){
     return ("Hello World!");
   }
-
 }
 
 function agregarStringInvertida() {
@@ -41,6 +40,13 @@ function agregarStringInvertida() {
  
     String.prototype.reverse = function(){
       return this.split('').reverse().join('');
+      //o 
+      //var invertida = "";
+      //for (var i = this.length; i>=0; i--){
+      //invertida += this.charAt(i);
+      //}
+      //return invertida;
+      }
     }
 }
 // No modificar nada debajo de esta línea
