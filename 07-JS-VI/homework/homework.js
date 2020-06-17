@@ -2,15 +2,26 @@
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
-}
+    var nombre = "Hola mundo!, soy Cristian ";
+    cb(nombre); 
+  }
+  
+  function saludo(cb){
+    return (cb);
+  }
 
 function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
-  var suma = numeros.reduce(function (accumulator, currentValue) {
-    return accumulator + currentValue;
-  }, 0);
+  suma = 0;
+  for (i=0;i<numeros.length;i++){
+    suma += numeros[i];
+  }
+  cb (suma);
+}
+function resultado (suma){
+  return suma;
 }
 
 function forEach(array, cb) {
